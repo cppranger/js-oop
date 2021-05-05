@@ -1,7 +1,14 @@
 body {
-    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 0;
     height: 100%;
+    width: 80%;
+}
+
+a {
+    text-decoration: none;
+    color: #9fcdff;
 }
 
 .body {
@@ -12,23 +19,115 @@ body {
     height: 100%;
 }
 
+.header {
+    border-bottom: 1px solid #ccc;
+    padding: .5em 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-navigation ul,
+.site-navigation li {
+    margin: 0;
+    padding: 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.site-navigation ul:hover,
+.site-navigation li:hover {
+    text-decoration-color: #6f42c1;
+}
+
+.site-navigation li {
+    display: inline-block;
+    margin: 1.4em 1em 1em 1em;
+}
+
+.site-identity {
+    display: flex;
+}
+
+.site-identity h1 {
+    font-size: 1.5em;
+    margin: .6em 0;
+    display: inline-block;
+}
+
+
 .logo {
-    max-width: 100px;
+    width: 5%;
     margin-right: 2%;
 }
 
+.cars {
+
+    flex-direction: row;
+}
+
+.car {
+    background-color: #c8e6c9;
+    padding: 5%;
+    border-radius: 5%;
+    margin: 3%;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+}
+
+.car-container {
+    position: relative;
+    color: white;
+}
+
+.brand {
+    font-size: x-large;
+    padding-left: 10px;
+}
+
+.price {
+    color: palevioletred;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(8deg, rgba(0,0,0,0.5) 0%, rgba(255,255,255,0) 75%);
+    width: 100%;
+    border-radius: 12px;
+}
+
+.car-img {
+    width: 100%;
+    border-radius: 5%;
+    box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+}
+
+.misc {
+    text-decoration: none;
+}
+
 .company-name {
-    font-family: 'Comic Sans MS', serif;
-    font-size: 20px;
+    font-family: 'Times New Roman', serif;
+    font-size: 100%;
     letter-spacing: 3px;
     max-width: 320px;
     width: 100%;
     position: relative;
-    display: inline-block;
     color: #256497;
     margin-bottom: -20%;
 }
 
 .auth-info {
-    font-family: 'Comic Sans MS', serif;
+    font-family: 'Trebuchet MS', serif;
+    font-size: 20px;
+    display: inline-block;
 }
