@@ -109,6 +109,11 @@ a {
     width: 100%;
     border-radius: 5%;
     box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+    transition-duration: 1s;
+}
+
+.car-img:hover {
+    box-shadow: 0.8em 0.8em 5px rgba(122,122,122,0.9);
 }
 
 .misc {
